@@ -130,31 +130,7 @@ const events = [
     description: "Kapil Kavuri Hub. 144, Financial District, Nanakramguda, Hyderabad<br /><strong>Rating: 5.0 (1 review)",
     city: "Hyderabad", // Added city property
     link: "https://www.altfcoworking.com/coworking-space/hyderabad/altf-financial-district/"
-  },
-  {
-    image: img4,
-    time: "2025",
-    title: "alt.f Hitec City",
-    description: "Hitec City, Hyderabad<br /><strong>Coming Soon",
-    city: "Hyderabad", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/hyderabad/altf-hitec-city/"
-  },
-  {
-    image: img7,
-    time: "----",
-    title: "Udyog Vihar, Gurgaon",
-    description: "887, Shankar Chowk Rd, Phase V, Udyog Vihar, Sector 19, Gurugram, Haryana, 122022<br /><strong>Coming Soon",
-    city: "Gurgaon", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-udyog-vihar/"
-  },
-  {
-    image: img13,
-    time: "-----",
-    title: "Connaught Place, Delhi",
-    description: "Connaught Place, Delhi<br /><strong>Coming Soon",
-    city: "Delhi", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/delhi/altf-regal-building/"
-  },
+  }
 ];
 
 function Timeline() {
