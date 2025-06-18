@@ -20,20 +20,76 @@ import img7 from './assets/images/1 (1)-DWj-BICG.avif'
 
 const events = [
   {
+    image: img5,
+    time: "2018",
+    title: "MG Road, Gurgaon",
+    description: "JMD Empire Square MG Road, Gurgaon<br /><strong>Rating: 4.5 (297 reviews)",
+    city: "Gurgaon", // Added city property
+    link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-empire-square/"
+  },
+  {
+    image: img3,
+    time: "2019",
+    title: "Golf Course Road Ext., Gurgaon",
+    description: "Suncity Success Tower, Golf Course Extension Road, Gurgaon<br /><strong>Rating: 4.7 (99 reviews)",
+    city: "Gurgaon", // Added city property
+    link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-success-tower/"
+  },
+  {
+    image: img6,
+    time: "2021",
+    title: "MG Road,Gurgaon",
+    description: "MGF Megacity Mall, MG Road, Gurgaon<br /><strong>Rating: 5.0 (19 reviews)",
+    city: "Gurgaon", // Added city property
+    link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-megacity/"
+  },
+  {
+    image: img15,
+    time: "April 2022",
+    title: "Sector 68, Noida",
+    description: "Grovy Optiva, Block A, Sector 68, Noida<br /><strongRating: 4.5 (101 reviews)",
+    city: "Noida", // Added city property
+    link: "https://www.altfcoworking.com/coworking-space/noida/altf-grovy-optiva/"
+  },
+  {
+    image: img10,
+    time: "May 2022",
+    title: "Barakhamba Road, Delhi",
+    description: "5th Floor, Wing-A, Statesman House, Barakhamba Road, New Delhi<br /><strong>Rating: 4.9 (51 reviews)",
+    city: "Delhi", // Added city property
+    link: "https://www.altfcoworking.com/coworking-space/delhi/altf-statesman-house/"
+  },
+  {
+    image: img2,
+    time: "July 2023",
+    title: "Golf Course Road, Gurgaon",
+    description: "2nd Floor, MPD Tower, Golf Course Road, Gurgaon<br /><strong>Rating: 4.9 (99 reviews)",
+    city: "Gurgaon", // Added city property
+    link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-mpd-tower/"
+  },
+  {
+    image: img14,
+    time: "July 2023",
+    title: "Sector 142, Noida Expressway",
+    description: "Plot No. 21 & 21A, Sector 142, Noida<br /><strong>Rating: 4.8 (259 reviews)",
+    city: "Noida", // Added city property
+    link: "https://www.altfcoworking.com/coworking-space/noida/altf-noida-142/"
+  },
+  {
     image: img4,
-    time: "May 2018",
-    title: "Global Business Park, MG Road",
+    time: "Nov 2023",
+    title: "MG Road, Gurgaon",
     description: "Tower D, Global Business Park MG Road, Gurgaon<br /><strong>Rating: 4.8 (57 reviews)",
     city: "Gurgaon", // Added city property
     link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-global-business-park/"
   },
-  {
-    image: img3,
-    time: "May 2019",
-    title: "Success Towers, Golf Course Ext.",
-    description: "Suncity Success Tower, Golf Course Extension Road, Gurgaon<br /><strong>Rating: 4.7 (99 reviews)",
-    city: "Gurgaon", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-success-tower/"
+   {
+    image: img9,
+    time: "December 2023",
+    title: "Okhla, Delhi",
+    description: "101, Mathura Rd, CRRI, Ishwar Nagar, Okhla, New Delhi<br /><strong>Rating: 4.9 (188 reviews)",
+    city: "Delhi", // Added city property
+    link: "https://www.altfcoworking.com/coworking-space/delhi/altf-101-okhla/"
   },
   {
     image: img1,
@@ -44,104 +100,32 @@ const events = [
     link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-orchid-business-park/"
   },
   {
-    image: img2,
-    time: "2024",
-    title: "Golf Course Road, Gurgaon",
-    description: "2nd Floor, MPD Tower, Golf Course Road, Gurgaon<br /><strong>Rating: 4.9 (99 reviews)",
-    city: "Gurgaon", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-mpd-tower/"
-  },
-  {
-    image: img5,
-    time: "2021",
-    title: "JMD Empire Square, MG Road",
-    description: "Tower D, Global Business Park MG Road, Gurgaon<br /><strong>Rating: 4.5 (297 reviews)",
-    city: "Gurgaon", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-empire-square/"
-  },
-  {
-    image: img6,
-    time: "2021",
-    title: "MGF Megacity Mall, MG Road",
-    description: "JMD Empire Square MG Road, Gurgaon<br /><strong>Rating: 5.0 (19 reviews)",
-    city: "Gurgaon", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-megacity/"
-  },
-  {
-    image: img7,
-    time: "2020",
-    title: "Udyog Vihar, Gurgaon",
-    description: "887, Shankar Chowk Rd, Phase V, Udyog Vihar, Sector 19, Gurugram, Haryana, 122022<br /><strong>Coming Soon",
-    city: "Gurgaon", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-udyog-vihar/"
-  },
-  {
-    image: img8,
-    time: "2019",
-    title: "Mohan Cooperative, Delhi",
-    description: "Plot No A 26, Block B, Mohan Cooperative Industrial Estate, Delhi<br /><strong>Newly Launched",
-    city: "Delhi", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/delhi/altf-mohan-cooperative/"
-  },
-  {
-    image: img9,
-    time: "2018",
-    title: "Okhla, Delhi",
-    description: "101, Mathura Rd, CRRI, Ishwar Nagar, Okhla, New Delhi<br /><strong>Rating: 4.9 (188 reviews)",
-    city: "Delhi", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/delhi/altf-101-okhla/"
-  },
-  {
-    image: img10,
-    time: "2017",
-    title: "Barakhamba Road, Delhi",
-    description: "5th Floor, Wing-A, Statesman House, Barakhamba Road, New Delhi<br /><strong>Rating: 4.9 (51 reviews)",
-    city: "Delhi", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/delhi/altf-statesman-house/"
-  },
-  {
     image: img13,
-    time: "2022",
-    title: "Connaught Place, Delhi",
-    description: "Connaught Place, Delhi<br /><strong>Coming Soon",
-    city: "Delhi", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/delhi/altf-regal-building/"
-  },
-  {
-    image: img7,
-    time: "2020",
-    title: "Sector 62, Noida",
-    description: "C-20, 1/1A, Coast Guard Golf Ground Rd, Sector 62, Noida<br /><strong>Rating: 4.5 (101 reviews)",
-    city: "Noida", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/noida/altf-noida-62/"
-  },
-  {
-    image: img13,
-    time: "2020",
+    time: "January 2025",
     title: "Sector 58, Noida",
     description: "A100, A Block, Sector 58, Noida, Uttar Pradesh<br /><strong>Rating: 5.0 (45 reviews)",
     city: "Noida", // Added city property
     link: "https://www.altfcoworking.com/coworking-space/noida/altf-noida-58/"
   },
   {
-    image: img14,
-    time: "2018",
-    title: "Sector 142, Noida Expressway",
-    description: "Plot No. 21 & 21A, Sector 142, Noida<br /><strong>Rating: 4.8 (259 reviews)",
+    image: img7,
+    time: "Feb 2025",
+    title: "Sector 62, Noida",
+    description: "C-20, 1/1A, Coast Guard Golf Ground Rd, Sector 62, Noida<br /><strong>Rating: 4.5 (101 reviews)",
     city: "Noida", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/noida/altf-noida-142/"
+    link: "https://www.altfcoworking.com/coworking-space/noida/altf-noida-62/"
   },
   {
-    image: img15,
-    time: "2014",
-    title: "Sector 68, Noida",
-    description: "Grovy Optiva, Block A, Sector 68, Noida<br /><strongRating: 4.5 (101 reviews)",
-    city: "Noida", // Added city property
-    link: "https://www.altfcoworking.com/coworking-space/noida/altf-grovy-optiva/"
+    image: img8,
+    time: "April 2025",
+    title: "Mohan Cooperative, Delhi",
+    description: "Plot No A 26, Block B, Mohan Cooperative Industrial Estate, Delhi<br /><strong>Newly Launched",
+    city: "Delhi", // Added city property
+    link: "https://www.altfcoworking.com/coworking-space/delhi/altf-mohan-cooperative/"
   },
   {
     image: img16,
-    time: "2013",
+    time: "2025",
     title: "Financial District, Hyderabad",
     description: "Kapil Kavuri Hub. 144, Financial District, Nanakramguda, Hyderabad<br /><strong>Rating: 5.0 (1 review)",
     city: "Hyderabad", // Added city property
@@ -149,11 +133,27 @@ const events = [
   },
   {
     image: img4,
-    time: "2022",
+    time: "2025",
     title: "alt.f Hitec City",
     description: "Hitec City, Hyderabad<br /><strong>Coming Soon",
     city: "Hyderabad", // Added city property
     link: "https://www.altfcoworking.com/coworking-space/hyderabad/altf-hitec-city/"
+  },
+  {
+    image: img7,
+    time: "----",
+    title: "Udyog Vihar, Gurgaon",
+    description: "887, Shankar Chowk Rd, Phase V, Udyog Vihar, Sector 19, Gurugram, Haryana, 122022<br /><strong>Coming Soon",
+    city: "Gurgaon", // Added city property
+    link: "https://www.altfcoworking.com/coworking-space/gurgaon/altf-udyog-vihar/"
+  },
+  {
+    image: img13,
+    time: "-----",
+    title: "Connaught Place, Delhi",
+    description: "Connaught Place, Delhi<br /><strong>Coming Soon",
+    city: "Delhi", // Added city property
+    link: "https://www.altfcoworking.com/coworking-space/delhi/altf-regal-building/"
   },
 ];
 
